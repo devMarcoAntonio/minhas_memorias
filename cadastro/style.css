@@ -1,0 +1,55 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family:'amatic sc',cursive;
+
+}
+/*caixa_login*/
+
+.box_login {
+    width: 500px;
+    height: 500px;
+    background: #7a52b3;
+    border:0;
+    border-radius: 10px 10px 10px 10px;
+
+}
+
+.box_login .cloak {
+
+    height: 230px;
+    background: url("../assets/img/imagens_3.jpeg");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    border-radius: 10px 10px 0px 0px;
+
+}
+
+h1{
+    color: aliceblue;
+    font-size: 24px;
+    text-align: left;
+    margin: 15px 0px 20px 15px;
+    
+}
+form input{
+    margin: 0px 20px;
+    width: calc(100% - 40px);
+    padding: 5px 10px;
+}
+
+form .btn-login{
+    margin: 0px 20px;
+    width: calc(100% - 40px);
+    background: #3ceb88;
+    color:#fff;
+}
+
