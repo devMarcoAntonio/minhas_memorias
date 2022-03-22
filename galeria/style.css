@@ -133,6 +133,8 @@ h1:after
 @media only screen and (max-device-width: 900px) {
     .h1 { 
         width:600px;
+        width: 100px;
+        height: 100px;
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -156,6 +158,8 @@ h1:after
         flex-direction: column;
         align-items: center;
         position: flex;
+        width: 100px;
+        height: 100px;
     }
     
 }
