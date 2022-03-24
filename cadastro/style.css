@@ -69,7 +69,7 @@ form .btn-login{
     justify-content: center;
 }
 
-@media (mid-whidth:480px){}
+@media (mid-width:480px){
 .box_login .cloak{
     height: 230px;
     background:url(../assets/img/capa.jpeg);
@@ -77,4 +77,5 @@ form .btn-login{
     background-repeat: no-repeat;
     
 
+    }
 }
