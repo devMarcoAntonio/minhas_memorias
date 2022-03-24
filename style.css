@@ -25,6 +25,7 @@ body {
     animation: backgroundTransition 8s ease-in-out infinite;
 }
 .textinit {
+    width: 230px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -171,11 +172,11 @@ a:hover {
     top: -428px;
     right: 30px;
     background: transparent;
-    height: 40px;
-    width: 40px;
-    border-radius: 50%;
+    height: 20px;
+    width: 20px;
+    border-radius: 15%;
     box-shadow: 0px 0px 0px 0px #FFF;
-    z-index: -1;
+    z-index: 5;
     transition: 400ms ease-in-out 0s;
 }
 /*imagem menu*/
@@ -184,10 +185,10 @@ a:hover {
    
     width: 800px;
     height: 800px;
-    position:fixed;
+    position:absolute;
     opacity:30%;
     justify-content: center;
-    background-image:url("/image.png");
+    background-image:url("./image.png");
     background-repeat: no-repeat;
     background-size: 100%;
     overflow: hidden;
@@ -196,8 +197,6 @@ a:hover {
 
 .menu-items {
     position:relative;
-   
-    
     display: flex;
     justify-content: center;
     align-items: center;
@@ -237,7 +236,7 @@ a:hover {
     transform: translate(-100px);
     width: 30px;
     visibility: hidden;
-    opacity: 0;
+    opacity: 0; 
 }
 #toggle:checked + .checkbox .trace:nth-child(3) {
     transform: rotate(-45deg);
@@ -376,40 +375,60 @@ a:hover {
 
 /*responsivo*/
 
-@media (max-width:800px){
+@media (mid-width:480px){
     .textinit {
+        width: 230px;
         display: flex;
         flex-direction: column;
         align-items: center;
         position: flex;
     }
     .menu-items{
+        width: 230px;
         display: flex;
         flex-direction: column;
+        align-items: center;
+        position: flex;
     }
     
     .social-media {
+        width: 230px;
         display: flex;
         flex-direction: column;
-       
+        align-items: center;
+        position: flex;
     }
 
     .container{
-        margin-top: 0;
-    }
-
-    .card-container {
+        width: 230px;
+        display: flex;
         flex-direction: column;
+        align-items: center;
+        position: flex;
+    }
+    .card-container {
+        width: 230px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        position: flex;
     }
 
     .container .card-container:nth-child(1),
     .container .card-container:nth-child(3) {
-        flex-direction: column-reverse;
+        width: 230px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        position: flex;
     }
 
     .card{
-        height: 250px;
-        width:250px;
+        width: 230px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        position: flex;
     }
 
     .card-text {
@@ -419,19 +438,29 @@ a:hover {
     }
 
     .card-wrapper h2{
-        font-size: 20px;
-
+        width: 230px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        position: flex;
     }
 
     .card-wrapper p{
-        font-size: 12px;
+        width: 230px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        position: flex;
     }
 
 
 
     .card:hover > .card-wrapper::before {
-        height: 190px;
-        width: 190px;
+        width: 230px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        position: flex;
     }
 
 }

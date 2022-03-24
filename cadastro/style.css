@@ -20,17 +20,17 @@ body{
     background: #7a52b3;
     border:0;
     border-radius: 10px 10px 10px 10px;
+    
 
 }
 
 .box_login .cloak {
 
     height: 230px;
-    background: url("../assets/img/imagens_3.jpeg");
+    background: url("../assets/img/capa-mobile.jpeg");
     background-size: 100% 100%;
     background-repeat: no-repeat;
-    border-radius: 10px 10px 0px 0px;
-
+    border-radius: 10px 10px 10px 10px;
 }
 
 h1{
@@ -43,7 +43,12 @@ h1{
 form input{
     margin: 0px 20px;
     width: calc(100% - 40px);
-    padding: 5px 10px;
+    padding: 10px 15px;
+    border-radius: 10px;
+    border: 0;
+    margin-bottom: 20px;
+    text-align: center;
+    color: #6d4bfc;
 }
 
 form .btn-login{
@@ -51,5 +56,25 @@ form .btn-login{
     width: calc(100% - 40px);
     background: #3ceb88;
     color:#fff;
+    padding: 10px 15px;
+    border-radius: 10px;
+    border: 0;
+    margin-bottom: 20px;
 }
 
+.msg_error
+{
+    color: #FF6D6D;
+    display: flex;
+    justify-content: center;
+}
+
+@media (mid-whidth:480px){}
+.box_login .cloak{
+    height: 230px;
+    background:url(../assets/img/capa.jpeg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    
+
+}
