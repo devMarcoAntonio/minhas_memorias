@@ -9,6 +9,7 @@
         
         public function validateLogin()
         {
+            
             //conectar no banco de dados
             //selecionar o usuario que tenha o mesmo email do informado
             //conferiir senha
