@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/lib/font-awesome/4.7.0/css/font-awesome.min.css">
+    
     <link rel="stylesheet" href="style.css">
     <title>Formulário</title>
 </head>
@@ -14,9 +15,9 @@
         <h1>Faça seu login</h1>
    
 
-    <form action="">
-        <input type="email" name="e-mail">
-        <input type="password" name="password">
+    <form method="POST" action="http://localhost/proj/">
+        <input type="email" name="e-mail" placeholder="E-MAIL">
+        <input type="password" name="password" placeholder="SENHA">
         
         <button class="btn-login">LOGAR</button>
         <span class="msg_error"><i class="fas fa-exclamation-triangle" style="font-size:18px" ></i>Tentativa Invalida</span>
