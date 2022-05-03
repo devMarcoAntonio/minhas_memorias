@@ -35,3 +35,18 @@ body
     font-family: 'amatic sc', cursive;
    
 }
+
+.title_editar_bloco{
+    font-size: 30px;
+    color: #fff;
+    text-align: center;
+    margin-top: 3%;
+    margin-bottom: 3%;
+
+}
+#editor_area{
+    font-size: 30px;
+    text-align: center;
+    margin-top: 3%;
+    margin-bottom: 3%;
+}

@@ -3,15 +3,15 @@
 
 <script src="http://localhost:8080/js/notes/jquery.cleditor.js"></script>
 
+       <div class="title_editar_bloco">
+       <h1 >Titulo</h1>
+       <input value="<?php if(isset($data2['nm_titulo'])) echo $data2['nm_titulo']; ?>" type="text" id="title">
+       </div>
 
-<h1 class="title_editar_bloco">Titulo</h1>
-<input value="<?php if(isset($data2['nm_titulo'])) echo $data2['nm_titulo']; ?>" type="text" id="title">
-
-<h2 class="title_editar_bloco">Texto</h2>
-
-
-        <textarea  id="editor_area" title="editor_area"><?php if(isset($data2['txt_note'])){echo $data2['txt_note'];} ?></textarea>
-    
+        <div class="title_editar_bloco">
+        <h2>Texto</h2>
+        <textarea   id="editor_area" title="editor_area"><?php if(isset($data2['txt_note'])){echo $data2['txt_note'];} ?></textarea>
+        </div>
 
     <button id="<?php if(!isset($data2['nm_titulo'])) echo 'create_note'; else{ echo "update_note";} ?>"> <?php if(!isset($data2['nm_titulo'])) echo 'Criar Bloco';else{echo'Salvar mudanças';} ?></button>
     <?php if(isset($data2['nm_titulo'])) echo ' <button id="delete_note">Deletar</button>'; else{echo ' <a href="/bloco"><button id="delete_note">Cancelar</button>';} ?>
